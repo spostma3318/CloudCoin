@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "elliptic": "^6.5.4"
+    "elliptic": "^6.5.4",
+    "eval": "^0.1.6",
+    "node": "^17.1.0"
   }
 }

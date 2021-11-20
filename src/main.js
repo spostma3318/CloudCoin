@@ -26,5 +26,20 @@ console.log('balance of stan is',CloudCoin.GetBalanceOfAddress(myWalletAddress))
 
 console.log('balance of adress1 is',CloudCoin.GetBalanceOfAddress('publickeyfromotherguy') );
 
+
+console.log('\n Starting the Miner..');
+CloudCoin.minePendingTransactions(myWalletAddress);
+
+console.log('balance of stan is',CloudCoin.GetBalanceOfAddress(myWalletAddress));
+
+
+console.log('balance of adress1 is',CloudCoin.GetBalanceOfAddress('publickeyfromotherguy') );
+
 console.log(JSON.stringify(CloudCoin.chain, null, 4))
+
+console.log('balance of stan is',CloudCoin.GetBalanceOfAddress(myWalletAddress));
+
+
+console.log('balance of adress1 is',CloudCoin.GetBalanceOfAddress('publickeyfromotherguy') );
+
 console.log('Is chain valid?', CloudCoin.isChainValid());
